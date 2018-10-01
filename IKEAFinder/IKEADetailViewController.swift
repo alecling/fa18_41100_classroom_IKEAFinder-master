@@ -9,5 +9,10 @@
 import UIKit
 
 class IKEADetailViewController : UIViewController {
-    k
+    
+    var selectedIKEA: IKEA!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print(selectedIKEA.storeName)
+    }
 }
