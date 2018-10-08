@@ -20,4 +20,8 @@ class IKEADetailViewController : UIViewController {
         
         lblStoreName.text = selectedIKEA.storeName
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+    let mapView = segue.destination as! IKEAMapViewController
+    mapView.selectedIKEA = selectedIKEA
+    }
 }

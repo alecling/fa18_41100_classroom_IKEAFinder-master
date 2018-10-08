@@ -15,6 +15,7 @@
 		4F0C885D21598E400008216D /* IKEADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C885C21598E400008216D /* IKEADetailViewController.swift */; };
 		4F0C885F215990040008216D /* IKEA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C885E215990040008216D /* IKEA.swift */; };
 		4F7BC114215C27D6006E46F6 /* IKEADataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BC113215C27D6006E46F6 /* IKEADataStore.swift */; };
+		FACA61C3216BF5E600EF34D5 /* IKEAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA61C2216BF5E600EF34D5 /* IKEAMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4F0C885C21598E400008216D /* IKEADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADetailViewController.swift; sourceTree = "<group>"; };
 		4F0C885E215990040008216D /* IKEA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEA.swift; sourceTree = "<group>"; };
 		4F7BC113215C27D6006E46F6 /* IKEADataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADataStore.swift; sourceTree = "<group>"; };
+		FACA61C2216BF5E600EF34D5 /* IKEAMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4F0C885C21598E400008216D /* IKEADetailViewController.swift */,
 				4F0C885E215990040008216D /* IKEA.swift */,
 				4F7BC113215C27D6006E46F6 /* IKEADataStore.swift */,
+				FACA61C2216BF5E600EF34D5 /* IKEAMapViewController.swift */,
 			);
 			path = IKEAFinder;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				4F0C8849215989D70008216D /* AppDelegate.swift in Sources */,
 				4F0C885B21598A650008216D /* IKEATableViewController.swift in Sources */,
 				4F0C885F215990040008216D /* IKEA.swift in Sources */,
+				FACA61C3216BF5E600EF34D5 /* IKEAMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
