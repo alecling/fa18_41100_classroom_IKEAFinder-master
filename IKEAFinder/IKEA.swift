@@ -7,8 +7,13 @@
 //
 
 import Foundation
+import MapKit
 
-class IKEA: NSObject {
+class IKEA: NSObject, MKAnnotation {
+    
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2DMake(latitude, longitude)
+    }
     
     var storeName: String
     var storeNumber: Int
