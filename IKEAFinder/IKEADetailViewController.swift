@@ -12,6 +12,11 @@ class IKEADetailViewController : UIViewController {
     
     var selectedIKEA: IKEA!
     
+    @IBOutlet var imgView: UIImageView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBOutlet weak var lblStoreName: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -24,4 +29,5 @@ class IKEADetailViewController : UIViewController {
     let mapView = segue.destination as! IKEAMapViewController
     mapView.selectedIKEA = selectedIKEA
     }
+    
 }

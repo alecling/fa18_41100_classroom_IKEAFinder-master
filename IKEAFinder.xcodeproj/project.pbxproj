@@ -15,6 +15,7 @@
 		4F0C885D21598E400008216D /* IKEADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C885C21598E400008216D /* IKEADetailViewController.swift */; };
 		4F0C885F215990040008216D /* IKEA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C885E215990040008216D /* IKEA.swift */; };
 		4F7BC114215C27D6006E46F6 /* IKEADataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BC113215C27D6006E46F6 /* IKEADataStore.swift */; };
+		FA1D1518217E55F0002B04C6 /* ikea1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1D1517217E55EF002B04C6 /* ikea1.jpg */; };
 		FACA61C3216BF5E600EF34D5 /* IKEAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA61C2216BF5E600EF34D5 /* IKEAMapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		4F0C885C21598E400008216D /* IKEADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADetailViewController.swift; sourceTree = "<group>"; };
 		4F0C885E215990040008216D /* IKEA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEA.swift; sourceTree = "<group>"; };
 		4F7BC113215C27D6006E46F6 /* IKEADataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADataStore.swift; sourceTree = "<group>"; };
+		FA1D1517217E55EF002B04C6 /* ikea1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ikea1.jpg; path = ../../ikea1.jpg; sourceTree = "<group>"; };
 		FACA61C2216BF5E600EF34D5 /* IKEAMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0C8848215989D70008216D /* AppDelegate.swift */,
+				FA1D1517217E55EF002B04C6 /* ikea1.jpg */,
 				4F0C884C215989D70008216D /* Main.storyboard */,
 				4F0C884F215989D90008216D /* Assets.xcassets */,
 				4F0C8851215989D90008216D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 				4F0C8853215989D90008216D /* LaunchScreen.storyboard in Resources */,
 				4F0C8850215989D90008216D /* Assets.xcassets in Resources */,
 				4F0C884E215989D70008216D /* Main.storyboard in Resources */,
+				FA1D1518217E55F0002B04C6 /* ikea1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
